@@ -314,7 +314,7 @@ class Affine_root_system
         else
           is_first = false
         end
-        str += coeff.to_s + 'a_' + i.to_s
+        str += coeff.to_s + '*a_' + i.to_s
       elsif coeff < -1 then
         if !is_first then
           str += ' - '
@@ -322,7 +322,7 @@ class Affine_root_system
           str += '- '
           is_first = false
         end
-        str += coeff.abs.to_s + 'a_' + i.to_s
+        str += coeff.abs.to_s + '*a_' + i.to_s
       else
       end
     end
