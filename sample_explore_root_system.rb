@@ -3,7 +3,7 @@ load 'utility.rb'
 require 'set'
 
 =begin
-Let's explore the world of affine root systems! (�E�́E)
+Let's explore the world of affine root systems! (・∀・)
 =end
 
 type = 'B'
